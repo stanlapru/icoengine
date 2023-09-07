@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/stanlap/Documents/icoengine/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/icoengine_game_engine.dir/src/main.cpp.o -c /home/stanlap/Documents/icoengine/src/main.cpp",
+  "file": "/home/stanlap/Documents/icoengine/src/main.cpp"
+},
+{
+  "directory": "/home/stanlap/Documents/icoengine/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/icoengine_game_engine.dir/src/glad.c.o -c /home/stanlap/Documents/icoengine/src/glad.c",
+  "file": "/home/stanlap/Documents/icoengine/src/glad.c"
+}
+]
