@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/icoengine_game_engine.exe"
-		},
-		{
-			"path" : "Release/icoengine_game_engine.pdb"
+			"path" : "icoengine_game_engine"
 		}
 	],
 	"backtrace" : 1,
@@ -36,23 +33,19 @@
 			{
 				"command" : 1,
 				"file" : 0,
-<<<<<<<< HEAD:build/.cmake/api/v1/reply/target-icoengine_game_engine-Debug-a56a943583cc78ea6a31.json
-				"line" : 11,
-========
-				"line" : 19,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 11,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 15,
->>>>>>>> unstable:build/.cmake/api/v1/reply/target-icoengine_game_engine-Release-74b1dc256dfacdd0b551.json
+				"line" : 16,
 				"parent" : 0
 			}
 		]
@@ -63,22 +56,22 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG"
+					"fragment" : "-g"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/stanl/Desktop/test/icoengine/include"
+					"path" : "/home/stanlap/Documents/icoengine/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/stanl/Desktop/test/icoengine/icoengine_game_engine"
+					"path" : "/home/stanlap/Documents/icoengine/icoengine_game_engine"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/stanl/Desktop/test/icoengine/PRIVATE"
+					"path" : "/home/stanlap/Documents/icoengine/PRIVATE"
 				}
 			],
 			"language" : "CXX",
@@ -91,22 +84,22 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG"
+					"fragment" : "-g"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/stanl/Desktop/test/icoengine/include"
+					"path" : "/home/stanlap/Documents/icoengine/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/stanl/Desktop/test/icoengine/icoengine_game_engine"
+					"path" : "/home/stanlap/Documents/icoengine/icoengine_game_engine"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/stanl/Desktop/test/icoengine/PRIVATE"
+					"path" : "/home/stanlap/Documents/icoengine/PRIVATE"
 				}
 			],
 			"language" : "C",
@@ -116,44 +109,37 @@
 			]
 		}
 	],
-	"dependencies" : 
-	[
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		}
-	],
 	"id" : "icoengine_game_engine::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"fragment" : "",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "glfw.lib",
+				"fragment" : "-lglfw",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "opengl32.lib",
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "icoengine_game_engine",
-	"nameOnDisk" : "icoengine_game_engine.exe",
+	"nameOnDisk" : "icoengine_game_engine",
 	"paths" : 
 	{
 		"build" : ".",
