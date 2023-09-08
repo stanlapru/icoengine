@@ -7,6 +7,7 @@ int main(int, char**){
     GLFWwindow* window;
 
     if (!glfwInit()){
+        std::cout << "Could not initialize GLFW." << std::endl;
         return -1;
     }
 
