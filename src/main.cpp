@@ -1,12 +1,14 @@
-#include <iostream>
-#include "./glad.h"
+#include "config.h"
+#include "glad.h"
 #include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
 
 
 int main(int, char**){
     GLFWwindow* window;
 
     if (!glfwInit()){
+        std::cout << "Could not initialize GLFW." << std::endl;
         return -1;
     }
 
@@ -19,7 +21,7 @@ int main(int, char**){
         return -1;
     }
 
-    glClearColor(0.25f, 0.25f, 0.0f, 1.0f);
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
     while (!glfwWindowShouldClose(window)){
         glfwPollEvents();

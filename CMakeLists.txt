@@ -6,6 +6,7 @@ add_executable(icoengine_game_engine
 src/main.cpp 
 src/glad.h 
 src/glad.c 
+src/config.h 
 src/khrplatform.h)
 target_link_libraries(icoengine_game_engine 
     glfw 
