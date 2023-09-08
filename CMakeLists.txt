@@ -7,7 +7,8 @@ src/main.cpp
 src/glad.h 
 src/glad.c 
 src/config.h 
-src/khrplatform.h 
+src/khrplatform.h)
+src/khrplatform.h
 )
 target_include_directories(icoengine_game_engine
     PRIVATE
