@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MinSizeRel/icoengine_game_engine.exe"
+			"path" : "Release/icoengine_game_engine.exe"
 		},
 		{
-			"path" : "MinSizeRel/icoengine_game_engine.pdb"
+			"path" : "Release/icoengine_game_engine.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -36,19 +36,23 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 20,
+<<<<<<<< HEAD:build/.cmake/api/v1/reply/target-icoengine_game_engine-Debug-a56a943583cc78ea6a31.json
+				"line" : 11,
+========
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 12,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 16,
+				"line" : 15,
+>>>>>>>> unstable:build/.cmake/api/v1/reply/target-icoengine_game_engine-Release-74b1dc256dfacdd0b551.json
 				"parent" : 0
 			}
 		]
@@ -59,7 +63,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG"
 				}
 			],
 			"includes" : 
@@ -87,7 +91,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O1 /Ob1 /DNDEBUG"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG"
 				}
 			],
 			"includes" : 
@@ -124,7 +128,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
