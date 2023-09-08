@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\icoengine_game_engine.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\icoengine_game_engine.dir/objects.a @CMakeFiles\icoengine_game_engine.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\icoengine_game_engine.dir/objects.a -Wl,--no-whole-archive -o icoengine_game_engine.exe -Wl,--out-implib,libicoengine_game_engine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\icoengine_game_engine.dir\linkLibs.rsp
