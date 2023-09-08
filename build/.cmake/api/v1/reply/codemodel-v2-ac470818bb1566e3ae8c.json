@@ -6,10 +6,10 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.0.0"
+						"string" : "3.5.0"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "icoengine_game_engine::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-icoengine_game_engine-Debug-280882076843b450b29d.json",
+					"jsonFile" : "target-icoengine_game_engine-Debug-03448fd7e77352fc6ae3.json",
 					"name" : "icoengine_game_engine",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/stanlap/Documents/icoengine/build",
-		"source" : "/home/stanlap/Documents/icoengine"
+		"build" : "C:/Users/stanl/Desktop/test/icoengine/build",
+		"source" : "C:/Users/stanl/Desktop/test/icoengine"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 6
 	}
 }
