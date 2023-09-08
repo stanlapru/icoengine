@@ -316,6 +316,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\stanl\Desktop\test\icoengine\src\main.cpp" />
     <ClInclude Include="C:\Users\stanl\Desktop\test\icoengine\src\glad.h" />
     <ClCompile Include="C:\Users\stanl\Desktop\test\icoengine\src\glad.c" />
+    <ClInclude Include="C:\Users\stanl\Desktop\test\icoengine\src\config.h" />
     <ClInclude Include="C:\Users\stanl\Desktop\test\icoengine\src\khrplatform.h" />
   </ItemGroup>
   <ItemGroup>

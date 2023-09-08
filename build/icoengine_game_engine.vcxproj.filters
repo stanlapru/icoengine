@@ -12,6 +12,9 @@
     <ClInclude Include="C:\Users\stanl\Desktop\test\icoengine\src\glad.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\stanl\Desktop\test\icoengine\src\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\stanl\Desktop\test\icoengine\src\khrplatform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
