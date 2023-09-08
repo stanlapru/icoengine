@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/stanlap/Documents/icoengine/src/glad.c" "CMakeFiles/icoengine_game_engine.dir/src/glad.c.o" "gcc" "CMakeFiles/icoengine_game_engine.dir/src/glad.c.o.d"
-  "/home/stanlap/Documents/icoengine/src/main.cpp" "CMakeFiles/icoengine_game_engine.dir/src/main.cpp.o" "gcc" "CMakeFiles/icoengine_game_engine.dir/src/main.cpp.o.d"
+  "C:/Users/stanl/Desktop/test/icoengine/src/glad.c" "CMakeFiles/icoengine_game_engine.dir/src/glad.c.obj" "gcc" "CMakeFiles/icoengine_game_engine.dir/src/glad.c.obj.d"
+  "C:/Users/stanl/Desktop/test/icoengine/src/main.cpp" "CMakeFiles/icoengine_game_engine.dir/src/main.cpp.obj" "gcc" "CMakeFiles/icoengine_game_engine.dir/src/main.cpp.obj.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

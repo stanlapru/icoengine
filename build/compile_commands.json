@@ -1,12 +1,14 @@
 [
 {
-  "directory": "/home/stanlap/Documents/icoengine/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/icoengine_game_engine.dir/src/main.cpp.o -c /home/stanlap/Documents/icoengine/src/main.cpp",
-  "file": "/home/stanlap/Documents/icoengine/src/main.cpp"
+  "directory": "C:/Users/stanl/Desktop/test/icoengine/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/icoengine_game_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\icoengine_game_engine.dir\\src\\main.cpp.obj -c C:\\Users\\stanl\\Desktop\\test\\icoengine\\src\\main.cpp",
+  "file": "C:/Users/stanl/Desktop/test/icoengine/src/main.cpp",
+  "output": "CMakeFiles/icoengine_game_engine.dir/src/main.cpp.obj"
 },
 {
-  "directory": "/home/stanlap/Documents/icoengine/build",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/icoengine_game_engine.dir/src/glad.c.o -c /home/stanlap/Documents/icoengine/src/glad.c",
-  "file": "/home/stanlap/Documents/icoengine/src/glad.c"
+  "directory": "C:/Users/stanl/Desktop/test/icoengine/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/icoengine_game_engine.dir/includes_C.rsp -g -o CMakeFiles\\icoengine_game_engine.dir\\src\\glad.c.obj -c C:\\Users\\stanl\\Desktop\\test\\icoengine\\src\\glad.c",
+  "file": "C:/Users/stanl/Desktop/test/icoengine/src/glad.c",
+  "output": "CMakeFiles/icoengine_game_engine.dir/src/glad.c.obj"
 }
 ]

@@ -1,0 +1,10 @@
+^C:\USERS\STANL\DESKTOP\TEST\ICOENGINE\BUILD\CMAKEFILES\4B1F0133982D728D7E3E9AF6EAADDE3D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/stanl/Desktop/test/icoengine -BC:/Users/stanl/Desktop/test/icoengine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/stanl/Desktop/test/icoengine/build/icoengine_game_engine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
