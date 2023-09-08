@@ -1,0 +1,15 @@
+build/ALL_BUILD.vcxproj
+build/icoengine_game_engine.vcxproj
+build/ZERO_CHECK.vcxproj
+build/.cmake/api/v1/reply/cmakeFiles-v1-6aa6bcc24214a50e3cee.json
+build/.cmake/api/v1/reply/cmakeFiles-v1-6271dd22622babc53fc7.json
+build/.cmake/api/v1/reply/index-2023-09-08T14-26-24-0709.json
+build/.cmake/api/v1/reply/index-2023-09-08T14-30-23-0883.json
+build/CMakeFiles/generate.stamp.depend
+build/Debug/icoengine_game_engine.exe
+build/Debug/icoengine_game_engine.pdb
+build/icoengine_game_engine.dir/Debug/icoengine_game_engine.ilk
+build/icoengine_game_engine.dir/Debug/main.obj
+build/icoengine_game_engine.dir/Debug/vc142.pdb
+build/icoengine_game_engine.dir/Debug/icoengin.523927A1.tlog/link.read.1.tlog
+build/icoengine_game_engine.dir/Debug/icoengin.523927A1.tlog/link.write.1.tlog
