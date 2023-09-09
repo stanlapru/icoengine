@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/icoengine_game_engine.dir/src/main.cpp.o CMakeFiles/icoengine_game_engine.dir/src/glad.c.o -o icoengine_game_engine  -lglfw /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 
+/usr/bin/g++ -g CMakeFiles/icoengine_game_engine.dir/src/main.cpp.o CMakeFiles/icoengine_game_engine.dir/src/glad.c.o CMakeFiles/icoengine_game_engine.dir/src/assets/meshes/triangle_mesh.cpp.o -o icoengine_game_engine  -lglfw /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 

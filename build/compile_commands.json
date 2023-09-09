@@ -8,5 +8,10 @@
   "directory": "/home/stanlap/Documents/icoengine/build",
   "command": "/usr/bin/gcc  -I/home/stanlap/Documents/icoengine/include -I/home/stanlap/Documents/icoengine/icoengine_game_engine -I/home/stanlap/Documents/icoengine/PRIVATE -g -o CMakeFiles/icoengine_game_engine.dir/src/glad.c.o -c /home/stanlap/Documents/icoengine/src/glad.c",
   "file": "/home/stanlap/Documents/icoengine/src/glad.c"
+},
+{
+  "directory": "/home/stanlap/Documents/icoengine/build",
+  "command": "/usr/bin/g++  -I/home/stanlap/Documents/icoengine/include -I/home/stanlap/Documents/icoengine/icoengine_game_engine -I/home/stanlap/Documents/icoengine/PRIVATE -g -o CMakeFiles/icoengine_game_engine.dir/src/assets/meshes/triangle_mesh.cpp.o -c /home/stanlap/Documents/icoengine/src/assets/meshes/triangle_mesh.cpp",
+  "file": "/home/stanlap/Documents/icoengine/src/assets/meshes/triangle_mesh.cpp"
 }
 ]

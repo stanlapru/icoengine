@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/icoengine_game_engine.dir/src/assets/meshes/triangle_mesh.cpp.o"
+  "CMakeFiles/icoengine_game_engine.dir/src/assets/meshes/triangle_mesh.cpp.o.d"
   "CMakeFiles/icoengine_game_engine.dir/src/glad.c.o"
   "CMakeFiles/icoengine_game_engine.dir/src/glad.c.o.d"
   "CMakeFiles/icoengine_game_engine.dir/src/main.cpp.o"

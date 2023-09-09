@@ -129,6 +129,30 @@ icoengine_game_engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icoengine_game_engine.dir/build.make CMakeFiles/icoengine_game_engine.dir/build
 .PHONY : icoengine_game_engine/fast
 
+src/assets/meshes/triangle_mesh.o: src/assets/meshes/triangle_mesh.cpp.o
+.PHONY : src/assets/meshes/triangle_mesh.o
+
+# target to build an object file
+src/assets/meshes/triangle_mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icoengine_game_engine.dir/build.make CMakeFiles/icoengine_game_engine.dir/src/assets/meshes/triangle_mesh.cpp.o
+.PHONY : src/assets/meshes/triangle_mesh.cpp.o
+
+src/assets/meshes/triangle_mesh.i: src/assets/meshes/triangle_mesh.cpp.i
+.PHONY : src/assets/meshes/triangle_mesh.i
+
+# target to preprocess a source file
+src/assets/meshes/triangle_mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icoengine_game_engine.dir/build.make CMakeFiles/icoengine_game_engine.dir/src/assets/meshes/triangle_mesh.cpp.i
+.PHONY : src/assets/meshes/triangle_mesh.cpp.i
+
+src/assets/meshes/triangle_mesh.s: src/assets/meshes/triangle_mesh.cpp.s
+.PHONY : src/assets/meshes/triangle_mesh.s
+
+# target to generate assembly for a file
+src/assets/meshes/triangle_mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icoengine_game_engine.dir/build.make CMakeFiles/icoengine_game_engine.dir/src/assets/meshes/triangle_mesh.cpp.s
+.PHONY : src/assets/meshes/triangle_mesh.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... icoengine_game_engine"
+	@echo "... src/assets/meshes/triangle_mesh.o"
+	@echo "... src/assets/meshes/triangle_mesh.i"
+	@echo "... src/assets/meshes/triangle_mesh.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
