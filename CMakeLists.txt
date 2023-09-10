@@ -7,8 +7,9 @@ src/main.cpp
 src/glad.h 
 src/glad.c 
 src/config.h 
-src/khrplatform.h)
 src/khrplatform.h
+src/assets/meshes/triangle_mesh.h 
+src/assets/meshes/triangle_mesh.cpp 
 )
 target_include_directories(icoengine_game_engine
     PRIVATE

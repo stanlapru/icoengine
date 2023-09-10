@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/icoengine_game_engine.dir/src/glad.c.obj"
-  "CMakeFiles/icoengine_game_engine.dir/src/glad.c.obj.d"
-  "CMakeFiles/icoengine_game_engine.dir/src/main.cpp.obj"
-  "CMakeFiles/icoengine_game_engine.dir/src/main.cpp.obj.d"
-  "icoengine_game_engine.exe"
-  "icoengine_game_engine.exe.manifest"
+  "CMakeFiles/icoengine_game_engine.dir/src/assets/meshes/triangle_mesh.cpp.o"
+  "CMakeFiles/icoengine_game_engine.dir/src/assets/meshes/triangle_mesh.cpp.o.d"
+  "CMakeFiles/icoengine_game_engine.dir/src/glad.c.o"
+  "CMakeFiles/icoengine_game_engine.dir/src/glad.c.o.d"
+  "CMakeFiles/icoengine_game_engine.dir/src/main.cpp.o"
+  "CMakeFiles/icoengine_game_engine.dir/src/main.cpp.o.d"
+  "icoengine_game_engine"
   "icoengine_game_engine.pdb"
-  "libicoengine_game_engine.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
