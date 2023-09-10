@@ -3,6 +3,7 @@
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
 #include "./assets/meshes/triangle_mesh.h"
+//#include "./objparser.h"
 
 unsigned int make_shader(const std::string& vertex_filepath, const std::string& frag_filepath);
 unsigned int make_module(const std::string& filepath, unsigned int module_type);
@@ -13,9 +14,11 @@ unsigned int make_shader(const std::string& vertex_filepath, const std::string& 
     modules.push_back(make_module(frag_filepath, GL_FRAGMENT_SHADER));
 
     unsigned int shader = glCreateProgram();
+
     for (unsigned int shaderModule : modules){
         glAttachShader(shader, shaderModule);
     }
+
     glLinkProgram(shader);
 
     int success;
@@ -74,11 +77,10 @@ int main(int, char**){
         return -1;
     }
 
-    // Unless building on MacOS, comment this out
-    // glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
-    // glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
-    // glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-    // glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
     window = glfwCreateWindow(640, 480, "Window", NULL, NULL);
     glfwMakeContextCurrent(window);
@@ -90,6 +92,9 @@ int main(int, char**){
     }
 
     glClearColor(0.25f, 0.0f, 0.0f, 1.0f);
+    int w, h;
+    glfwGetFramebufferSize(window, &w, &h);
+    glViewport(0,0,w,h);
 
     TriangleMesh* triangle = new TriangleMesh();
 
@@ -97,8 +102,6 @@ int main(int, char**){
         "../src/assets/shaders/vertex.c",
         "../src/assets/shaders/fragment.c"
     );
-
-    
 
     while (!glfwWindowShouldClose(window)){
         glfwPollEvents();
